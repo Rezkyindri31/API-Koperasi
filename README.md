@@ -1,10 +1,6 @@
-# 🚀 Nama Project
+# 🚀 API Koperasi Karyawan Kita
 
-Deskripsi singkat tentang project ini. Jelaskan tujuan, manfaat, dan masalah yang ingin diselesaikan oleh projectmu.
-
-Contoh:
-
-> Aplikasi Koperasi Digital untuk mengelola simpanan, pinjaman, dan dividen anggota, dibangun dengan **Next.js** (frontend) dan **Laravel** (backend API).
+Ini adalah APU untuk integrasi MySQL dengan menggunakan Laravel
 
 ---
 
