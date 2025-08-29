@@ -49,8 +49,26 @@ cd API-Koperasi
 
 ### 2. Installation
 
+Pastikan kamu sudah menginstall Composer di Perangkat Anda. Jika sudah, run code dibawah ini didalam folder API-Koperasi.
+
 ```bash
 composer install
 
 ```
-# API-Koperasi
+
+### 3. Preparation
+
+```bash
+Buka XAMPP kalian lalu jalankan Start pada Apache dan MySQL kamu. Setelah ituh kamu buat database baru dengan nama db_koperasi.
+Setelah masuk di db_koperasi, kamu import database di folder API-Koperasi ke dalamnya. Untuk database di folder ini dengan nama db_koperasi.sql .
+
+```
+
+### 4. Running
+
+Jika sudah semua step diatas dilakukan, maka kamu cukup menjalankan code dibawah ini bersamaan dengan kamu menjalankan UI Tampilan yang ada di https://github.com/Rezkyindri31/Koperasi-Karyawan.git .
+
+```bash
+php artisan serve --host=127.0.0.1 --port=8000
+
+```
